@@ -28,7 +28,7 @@ function ThemeSelector() {
   return (
     <>
       <select className="select w-full max-w-xs" data-choose-theme>
-        <option className="text-primary" option value="">
+        <option className="text-primary" value="">
           Default value
         </option>
         {themeValues.map((value) => (

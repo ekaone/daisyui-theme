@@ -23,7 +23,7 @@ export default function Home() {
         <div className="divider">OR</div>
         <Button />
         <div className="divider">OR</div>
-        Press <kbd className="kbd kbd-sm">F</kbd> to pay respects.
+        Press <kbd className="kbd kbd-sm">F</kbd> to pay respects!!
         <div className="divider">OR</div>
       </Layout>
     </div>
