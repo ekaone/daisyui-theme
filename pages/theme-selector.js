@@ -27,20 +27,22 @@ function ThemeSelector() {
 
   return (
     <>
-      <select className="select w-full max-w-xs" data-choose-theme>
-        <option className="text-primary" value="">
-          Default value
-        </option>
-        {themeValues.map((value) => (
-          <option
-            className="text-primary"
-            key={value.toLowerCase()}
-            value={value.toLowerCase()}
-          >
-            {value}
+      <div className="flex justify-center">
+        <select className="select w-full max-w-xs" data-choose-theme>
+          <option className="text-primary" value="">
+            Default value
           </option>
-        ))}
-      </select>
+          {themeValues.map((value) => (
+            <option
+              className="text-primary"
+              key={value.toLowerCase()}
+              value={value.toLowerCase()}
+            >
+              {value}
+            </option>
+          ))}
+        </select>
+      </div>
     </>
   );
 }
